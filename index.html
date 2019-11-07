@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MovieWiki</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="main-header">
+    <div class="inner">
+      <h1 >MovieWiki</h1>
+      <form class="search-form">
+        <label class="is-hidden" for="search">Search a title</label>
+        <input type="search" name="search" id="search" placeholder="Search a Title...">
+        <button type="submit" id="submit" class="search-button"><b>SEARCH MOVIE</b></button>
+      </form>   
+    </div> 	
+  </div>
+
+  <div class="main-content clearfix">
+    <ul id="movies" class="movie-list">
+
+      <li class="desc centered">
+        Search movie titles and TV shows
+      </li>
+    </ul> 
+  </div>
+  <script
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+  <script src="searchjs.js"></script>
+</body>
+</html>
